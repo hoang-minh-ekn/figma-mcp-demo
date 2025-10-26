@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent-1: #485c11;
+  --color-accent-4: #000000;
+  --color-on-accent-1: #ffffff;
+  --font-link: "DM Sans", sans-serif;
+  --font-header: "DM Sans", sans-serif;
+  --font-weight-header: 500;
+  --font-weight-link: 700;
+  --text-header: 30px;
+  --text-link: 14px;
+  --leading-header: 1.2;
+  --leading-link: 1.4;
+  --tracking-header: -1.5px;
+  --tracking-link: -0.35px;
+  --radius-pill: 1000px;
+}
+
+.header {
+  @apply w-full h-[56px] flex items-center justify-between bg-white px-8;
+}
+.header__brand {
+  @apply font-header font-medium text-header leading-header tracking-header text-black select-none;
+}
+.header__nav {
+  @apply flex gap-[27px];
+}
+.header__nav-link {
+  @apply font-link font-bold text-link leading-link tracking-link text-black px-2 py-1 rounded-sm transition-colors focus-visible:outline-2 focus-visible:outline-accent-1 hover:text-accent-1;
+}
+.header__cta {
+  @apply flex items-center gap-2 px-[22px] py-[14px] rounded-pill bg-accent-1 text-on-accent-1 font-link font-bold text-link leading-link tracking-link transition-colors focus-visible:outline-2 focus-visible:outline-accent-1 hover:bg-accent-4;
+}
+.header__cta-icon {
+  @apply ml-1 w-[7px] h-[6px] flex items-center;
+}

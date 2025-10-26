@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent-1: #485c11;
+  --color-accent-3: #8e9c78;
+  --color-on-accent-1: #ffffff;
+  --font-link: "DM Sans", sans-serif;
+}
+
+.link-button {
+  @apply flex items-center justify-center gap-1 px-6 py-3 rounded-[1000px] font-bold text-[14px] leading-[1.4] tracking-[-0.35px] text-on-accent-1 font-link transition-colors duration-200;
+  background-color: var(--color-accent-1);
+}
+.link-button:hover,
+.link-button:focus-visible {
+  background-color: var(--color-accent-3);
+}
+.link-button__icon {
+  @apply ml-1 w-[14px] h-[14px] inline-block align-middle;
+}

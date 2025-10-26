@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent-1: #485c11;
+  --color-accent-3: #8e9c78;
+  --color-on-accent-1: #ffffff;
+  --font-link: "DM Sans", sans-serif;
+  --font-weight-link: 700;
+  --text-link: 14px;
+  --leading-link: 1.4;
+  --radius-pill: 1000px;
+}

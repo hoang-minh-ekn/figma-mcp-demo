@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-badbutton-default: oklch(0.92 0.13 120); /* #dfecc6 */
+  --color-badbutton-hover: oklch(0.67 0.13 120); /* #8e9c78 */
+  --font-badbutton: "DM Sans", sans-serif;
+  --text-badbutton: 14px;
+  --radius-badbutton: 1000px;
+}
