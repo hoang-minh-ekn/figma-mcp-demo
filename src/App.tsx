@@ -12,7 +12,7 @@ function App() {
       <div className="max-w-[1280px] mx-auto space-y-10">
         <section className="bg-white rounded-xl shadow-md p-8">
           <h2 className="text-xl font-bold mb-6 text-gray-800">
-            Example 1: Button Comparison
+            Example 1: Figma tokens
           </h2>
           <div className="flex flex-col sm:flex-row gap-8 items-start justify-center">
             <div className="flex flex-col items-center gap-2 flex-1">
@@ -30,7 +30,9 @@ function App() {
           </div>
         </section>
         <section className="bg-white rounded-xl shadow-md p-8">
-          <h2 className="text-xl font-bold mb-6 text-gray-800">Example 2</h2>
+          <h2 className="text-xl font-bold mb-6 text-gray-800">
+            Example 2 - Component
+          </h2>
           <div className="flex flex-col items-center gap-2">
             <span className="text-sm font-medium text-gray-500 mb-1">
               Bad Link Button
@@ -43,7 +45,9 @@ function App() {
           </div>
         </section>
         <section className="bg-white rounded-xl shadow-md p-8">
-          <h2 className="text-xl font-bold mb-6 text-gray-800">Example 3</h2>
+          <h2 className="text-xl font-bold mb-6 text-gray-800">
+            Example 3 - Naming
+          </h2>
           <div>
             <span className="text-sm font-medium text-gray-500 mb-4 block">
               Header with BEM
@@ -58,7 +62,9 @@ function App() {
           </div>
         </section>
         <section className="bg-white rounded-xl shadow-md p-8">
-          <h2 className="text-xl font-bold mb-6 text-gray-800">Example 4</h2>
+          <h2 className="text-xl font-bold mb-6 text-gray-800">
+            Example 4 - Auto Layout
+          </h2>
           <div>
             <span className="text-sm font-medium text-gray-500 mb-4 block">
               Header without auto layout

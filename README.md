@@ -14,9 +14,23 @@
 }
 ```
 
-## Example 1
+## Agent contexts
 
-- Theme variables
+- Model: GPT-4
+- Make sure all the context files are imported in agent chat
+- ![Prompt context](src/assets/prompt.png)
+
+## Start
+
+- Run dev
+
+```bash
+ yarn && yarn dev
+```
+
+## Examples
+
+### Example 1 - Figma tokens
 
 A. Prompt for bad buttons
 
@@ -32,10 +46,10 @@ Context (strict follow these files):
 #file:tailwindcss.prompt.md
 ```
 
-B. Prompt for good buttons
+B. Prompt for good button
 
 ```txt
-Create this buttons:
+Create this button:
 https://www.figma.com/design/4lOOrIjgpDR2pR1QHfkGVm/For-gen-code?node-id=1-1057&m=dev
 
 File: /components/example-1/good-button.tsx
@@ -44,14 +58,12 @@ Context:
 #file:figma-mcp.prompt.md #file:copilot-instructions.md #file:tailwindcss.prompt.md
 ```
 
-## Example 2
+### Example 2 - Component
 
-- Componennt
-
-A. Componentize component
+A. Uncomponentized version
 
 ```txt
-Create this link buttons with default and hover state:
+Create this link button with default and hover state:
 https://www.figma.com/design/4lOOrIjgpDR2pR1QHfkGVm/For-gen-code?node-id=158-1023&m=dev
 
 File:/components/example-2/bad-link-button.tsx
@@ -62,10 +74,10 @@ Context (strict follow these files):
 #file:tailwindcss.prompt.md
 ```
 
-B. NO componentize component
+B. Componentized version
 
 ```txt
-Create this link buttons with default and hover state:
+Create this link button with default and hover state:
 https://www.figma.com/design/4lOOrIjgpDR2pR1QHfkGVm/For-gen-code?node-id=1-1062&m=dev
 
 File: /components/example-2/good-link-button.tsx
@@ -76,7 +88,7 @@ Context (strict follow these files):
 #file:tailwindcss.prompt.md
 ```
 
-## Example 3 - naming
+### Example 3 - Naming
 
 A. Header with BEM naming
 Create this header component:
@@ -89,7 +101,7 @@ Context (strict follow these files):
 #file:copilot-instructions.md
 #file:tailwindcss.prompt.md
 
-## Example 4 - Auto layout
+### Example 4 - Auto layout
 
 A. Header without auto layout
 
