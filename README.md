@@ -91,6 +91,8 @@ Context (strict follow these files):
 ### Example 3 - Naming
 
 A. Header with BEM naming
+
+```txt
 Create this header component:
 https://www.figma.com/design/4lOOrIjgpDR2pR1QHfkGVm/For-gen-code?node-id=182-1081&m=dev
 
@@ -100,6 +102,7 @@ Context (strict follow these files):
 #file:figma-mcp.prompt.md
 #file:copilot-instructions.md
 #file:tailwindcss.prompt.md
+```
 
 ### Example 4 - Auto layout
 
